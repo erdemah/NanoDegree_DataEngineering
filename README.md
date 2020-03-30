@@ -6,8 +6,7 @@ pipelined through a Postgres database. During this job, the Postgres database mo
 
 sql_queries.py: PostgreSQL drop, create, insert tables. Data modelling occurs here.<br />
 create_tables.py: A wrapper built on top sql_queries.py to make the database console commands easier.<br />
-test.ipynb: Every time you manipulate the database, run this file to check if the code is doing what is supposed to be doing.<br />
-            Restart Jupyter Kernel for cleanup in every run.
+test.ipynb: Every time you manipulate the database, run this file to check if the code is doing what is supposed to be doing.Restart Jupyter Kernel for cleanup in every run. <br />
 etl.ipynb: A prototype of etl.py<br />
 etl.py: Data is extracted, transformed and loaded into PostgreSQL database.<br />
 
